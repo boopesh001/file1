@@ -117,4 +117,17 @@ public class SLL {
 			}
 			past.next=current.next;
 		}
+        	void sort(){
+		for(int j=0;j<size();j++){
+			Node past=head
+			Node current=head.next();
+			for(int i=0;i<size();i++){
+					if(past.data>current.data){
+						int temp=past.data;
+						past.data=current.data;
+						current.data=temp;		
+						}
+				}
+		}
+
 }
