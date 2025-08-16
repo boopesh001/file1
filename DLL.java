@@ -1,4 +1,4 @@
-ublic class DLL{
+public class DLL{
 	private Node head;
 	private class Node{
 		int data;
